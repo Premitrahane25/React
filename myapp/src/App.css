@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #ebeef3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url('https://b.zmtcdn.com/contact-us-form-bgfcdedcf4a3df21e53e77114327898f831627911153.webp');
+}
+
+.App-link {
+  color: #96cfe1;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  /* background-image:"url("+ "https://b.zmtcdn.com/contact-us-form-bgfcdedcf….webp" +")"; */
+  opacity: 1;
+  background-position-y:15px;
+}
+.column {
+  /* float: left; */
+  width: 73%;
+  
+  
+}
+.column2 {
+  /* float: left; */
+  width: 60%;
+  justify-content: center;
+  margin-left: 18%;
+  
+  
+}
+.btn{
+  margin-right: 20%;
+  background-color: #008CBA;
+  width: 20%;
+
+
+  
+}
+.text-after-btn{
+font-size: 13px;
+}
+
+form{
+  border: 2px solid black;
+  height: 206px;
+  width: 255px;
+  padding-top: 10px;
+  background-color:#fff;
+}
+input{
+width: 80%;
+height: 30px;
+}
+
+
+.row{
+  display: flex;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+a{
+  color:blue;
+ 
+
+}
+
+p{
+  color: black;
+  text-align: left;
+}
+
+h2{
+  color: black;
+  text-align: left;
+}
+
+::placeholder{
+  color: grey;
+
+  
+  }
+
+form{
+  
+    opacity: 1;
+    background-position-y:100px;
+
+}  
+
+#form{
+  
+}
+
+
